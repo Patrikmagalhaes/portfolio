@@ -1,0 +1,6 @@
+{
+  "name": "Portfolio",
+  "description": "Portfólio de Desenvolvedor Front-End e Full Stack",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
