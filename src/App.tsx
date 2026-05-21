@@ -700,12 +700,9 @@ export default function App() {
             <div className="projects-vertical-list">
               {/* Project 1 — DescribAi */}
               {(activeProjectTab === 'all' || activeProjectTab === 'fullstack') && (
-                <div style={{ maxHeight: '700px' }} className="project-row-card">
+                <div  className="project-row-card">
                   {/* LEFT: Image / Simulation Area (44%) */}
-                  <div style={{
-                    maxHeight: '700px',
-                    overflow: 'hidden'
-                  }} className="project-row-media">
+                  <div  className="project-row-media">
                     <video
                       autoPlay
                       muted
@@ -826,10 +823,7 @@ export default function App() {
               {(activeProjectTab === 'all' || activeProjectTab === 'freelancer') && (
                 <div className="project-row-card">
                   {/* LEFT: Image / Simulation Area (44%) */}
-                  <div style={{
-                    maxHeight: '700px',
-                    overflow: 'hidden'
-                  }} className="project-row-media">
+                  <div  className="project-row-media">
 
 
 
